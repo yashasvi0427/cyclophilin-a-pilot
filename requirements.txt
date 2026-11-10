@@ -1,0 +1,7 @@
+numpy
+scipy
+biopython
+pynmrstar
+matplotlib
+torch
+fair-esm

@@ -1,0 +1,14 @@
+{
+  "scope": "new cyclophilin_a directory only; raw public STAR/CIF included",
+  "text_files_scanned": 37,
+  "patterns": [
+    "private_key",
+    "github_token",
+    "aws_access_key",
+    "api_token",
+    "employer_internal_url"
+  ],
+  "findings": [],
+  "manual_review": "No employer code, internal logs, patient data, resume PDF, personal application answers, credentials or model weights added. Public deposit authors/contact metadata retained. Private conversation history and application files are excluded from this public export.",
+  "limitation": "Pattern scans and manual review do not prove absence of every secret or proprietary detail."
+}

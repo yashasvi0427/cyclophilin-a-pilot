@@ -1,0 +1,5 @@
+# Preserve byte-exact upstream tables and deterministic CSV receipts, including
+# their inherited padded whitespace / CRLF. Source hashes depend on these bytes.
+data/*.str -text -whitespace
+data/*.cif -text -whitespace
+results/*.csv -text -whitespace

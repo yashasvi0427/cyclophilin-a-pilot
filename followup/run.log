@@ -1,0 +1,155 @@
+{
+  "primary": {
+    "283K_exclude_2": {
+      "geometry_locality": {
+        "n": 154,
+        "k": 39,
+        "spearman": 0.35897174720039743,
+        "top_quartile_precision": 0.5641025641025641,
+        "chance_precision": 0.2532467532467532,
+        "score_ties": 0
+      },
+      "sidechain_amide_distance": {
+        "n": 154,
+        "k": 39,
+        "spearman": 0.36899995564392707,
+        "top_quartile_precision": 0.5641025641025641,
+        "chance_precision": 0.2532467532467532,
+        "score_ties": 0
+      },
+      "sidechain_ca_distance": {
+        "n": 154,
+        "k": 39,
+        "spearman": 0.36665554977090664,
+        "top_quartile_precision": 0.5641025641025641,
+        "chance_precision": 0.2532467532467532,
+        "score_ties": 0
+      },
+      "all_heavy_distance": {
+        "n": 154,
+        "k": 39,
+        "spearman": 0.3498914870320835,
+        "top_quartile_precision": 0.5897435897435898,
+        "chance_precision": 0.2532467532467532,
+        "score_ties": 0
+      },
+      "contact_diffusion": {
+        "n": 154,
+        "k": 39,
+        "spearman": 0.3689555975790556,
+        "top_quartile_precision": 0.5897435897435898,
+        "chance_precision": 0.2532467532467532,
+        "score_ties": 0
+      }
+    },
+    "298K_exclude_2": {
+      "geometry_locality": {
+        "n": 152,
+        "k": 38,
+        "spearman": 0.5226791599886185,
+        "top_quartile_precision": 0.6578947368421053,
+        "chance_precision": 0.25,
+        "score_ties": 0
+      },
+      "sidechain_amide_distance": {
+        "n": 152,
+        "k": 38,
+        "spearman": 0.5401017986549058,
+        "top_quartile_precision": 0.6842105263157895,
+        "chance_precision": 0.25,
+        "score_ties": 0
+      },
+      "sidechain_ca_distance": {
+        "n": 152,
+        "k": 38,
+        "spearman": 0.536079743989765,
+        "top_quartile_precision": 0.6578947368421053,
+        "chance_precision": 0.25,
+        "score_ties": 0
+      },
+      "all_heavy_distance": {
+        "n": 152,
+        "k": 38,
+        "spearman": 0.5173346455482786,
+        "top_quartile_precision": 0.6842105263157895,
+        "chance_precision": 0.25,
+        "score_ties": 0
+      },
+      "contact_diffusion": {
+        "n": 152,
+        "k": 38,
+        "spearman": 0.5425963610215606,
+        "top_quartile_precision": 0.6578947368421053,
+        "chance_precision": 0.25,
+        "score_ties": 0
+      }
+    }
+  },
+  "bootstrap": {
+    "283": {
+      "resamples": 2000,
+      "circular_block_length": 10,
+      "seed": 20261110,
+      "spearman_difference": 0.010028208443529585,
+      "descriptive_percentile_95": [
+        -0.040779290840917415,
+        0.06173896078242495
+      ],
+      "caveat": "One protein and one mutant pair, correlated residues and gaps; interval is not independent biological replication."
+    },
+    "298": {
+      "resamples": 2000,
+      "circular_block_length": 10,
+      "seed": 20261110,
+      "spearman_difference": 0.01742263866628735,
+      "descriptive_percentile_95": [
+        -0.034345454406123674,
+        0.076821429543195
+      ],
+      "caveat": "One protein and one mutant pair, correlated residues and gaps; interval is not independent biological replication."
+    }
+  },
+  "carbon": {
+    "geometry_locality": {
+      "n": 136,
+      "k": 34,
+      "spearman": 0.4105109739789696,
+      "top_quartile_precision": 0.5588235294117647,
+      "chance_precision": 0.25,
+      "score_ties": 0
+    },
+    "sidechain_amide_distance": {
+      "n": 136,
+      "k": 34,
+      "spearman": 0.4216865170722294,
+      "top_quartile_precision": 0.5882352941176471,
+      "chance_precision": 0.25,
+      "score_ties": 0
+    },
+    "sidechain_ca_distance": {
+      "n": 136,
+      "k": 34,
+      "spearman": 0.4487773693476089,
+      "top_quartile_precision": 0.5588235294117647,
+      "chance_precision": 0.25,
+      "score_ties": 0
+    },
+    "all_heavy_distance": {
+      "n": 136,
+      "k": 34,
+      "spearman": 0.4461439009217905,
+      "top_quartile_precision": 0.5882352941176471,
+      "chance_precision": 0.25,
+      "score_ties": 0
+    },
+    "contact_diffusion": {
+      "n": 136,
+      "k": 34,
+      "spearman": 0.4284443214656564,
+      "top_quartile_precision": 0.6176470588235294,
+      "chance_precision": 0.25,
+      "score_ties": 0
+    }
+  },
+  "point_improvement_both_temperatures": true
+}

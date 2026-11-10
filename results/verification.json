@@ -1,0 +1,11 @@
+{
+  "protocol_hash_verified": true,
+  "all_source_hashes_verified": true,
+  "score_csv_byte_identical": true,
+  "metrics_identical": true,
+  "embedding_shape": [
+    165,
+    320
+  ],
+  "score_csv_sha256": "670abeea670c768c639fa81b79e1ef7c6518d7b29e1a55e8219af09d76d7421e"
+}

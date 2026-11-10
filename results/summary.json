@@ -1,0 +1,891 @@
+{
+  "protocol_sha256": "7995a760c3a57f2a6029c52ec7c76d6bf677e9233aefbbb65fd2b25d54c2ce74",
+  "data": {
+    "cypa-27217.str": {
+      "url": "https://bmrb.io/ftp/pub/bmrb/entry_directories/bmr27217/bmr27217_3.str",
+      "bytes": 172896,
+      "sha256": "bd3b23bf8800e8b4cf30ef15a2f2aa4628a0dd5cf519f60b5df6b3361ea6ae2f"
+    },
+    "cypa-27218.str": {
+      "url": "https://bmrb.io/ftp/pub/bmrb/entry_directories/bmr27218/bmr27218_3.str",
+      "bytes": 173650,
+      "sha256": "a725c0efbc467cf0ad813c8ad19c4e900ad395f9ce88c761cfd94718a04e0879"
+    },
+    "cypa-3K0N.cif": {
+      "url": "https://files.rcsb.org/download/3K0N.cif",
+      "bytes": 475492,
+      "sha256": "51b273aa751ea33b3412730d738c5dd567e1167bf41392e260accb2346d24e42"
+    },
+    "cypa-3K0O.cif": {
+      "url": "https://files.rcsb.org/download/3K0O.cif",
+      "bytes": 410638,
+      "sha256": "902907b359601ac0d1bc2e71e7a5e982476d6809badf66f537a609a1552dfcc4"
+    },
+    "cypa-6BTA.cif": {
+      "url": "https://files.rcsb.org/download/6BTA.cif",
+      "bytes": 598590,
+      "sha256": "176fb32aeaadcb6199ab8541781c56c4c82c27a697b2b76580d844528af0392f"
+    },
+    "cypa-5WC7.cif": {
+      "url": "https://files.rcsb.org/download/5WC7.cif",
+      "bytes": 625775,
+      "sha256": "3208a5dda5325025376313bf1de975bb76ca60d50b57516cc8e48b2b5d72c848"
+    }
+  },
+  "sequences": {
+    "double": "MVNPTVFFDIAVDGEPLGRVSFELFADKVPKTAENFRALSTGEKGFGYKGSCFHRIIPGFMCQGGDFTRHNGTGGKSIYGEKFEDENFILKHTGPGILTMANAGPNTNGSQFFISTAKTEWLDGKHVVFGKVKEGMNIVEAMERFGSRNGKTSKKITIADCGQLE",
+    "triple": "MVNPTVFFDIAVDGEPLGRVSFELFADKVPKTAENFRALSTGEKGFGYKGSCFHRIIPGFMCQGGDFTRHNGTGGKSIYGEKFEDENFILKHTGPGVLTMANAGPNTNGSQFFISTAKTEWLDGKHVVFGKVKEGMNIVEAMERFGSRNGKTSKKITIADCGQLE",
+    "changes": [
+      [
+        97,
+        "I",
+        "V"
+      ]
+    ]
+  },
+  "conditions": {
+    "double": {
+      "298.0": {
+        "conditions": {
+          "ionic strength": 0.05,
+          "pH": 6.5,
+          "pressure": 1.0,
+          "temperature": 298.0
+        },
+        "details": "TROSY offset: amide protons and nitrogens."
+      },
+      "283.0": {
+        "conditions": {
+          "ionic strength": 0.05,
+          "pH": 6.5,
+          "pressure": 1.0,
+          "temperature": 283.0
+        },
+        "details": "1HN and 15N cross peak assignments at 10 degrees Celsius were obtained by\nrecording HSQC spectra between 25 and 10 degrees Celsius with an interval \nof 5 degrees.\nTROSY offset: amide protons and nitrogens.\n"
+      }
+    },
+    "triple": {
+      "298.0": {
+        "conditions": {
+          "ionic strength": 0.05,
+          "pH": 6.5,
+          "pressure": 1.0,
+          "temperature": 298.0
+        },
+        "details": "TROSY offset: amide protons and nitrogens."
+      },
+      "283.0": {
+        "conditions": {
+          "ionic strength": 0.05,
+          "pH": 6.5,
+          "pressure": 1.0,
+          "temperature": 283.0
+        },
+        "details": "1HN and 15N cross peak assignments at 10 degrees Celsius were obtained by\nrecording HSQC spectra between 25 and 10 degrees Celsius with an interval \nof 5 degrees. \nTROSY offset: amide protons and nitrogens.\n"
+      }
+    }
+  },
+  "matching": {
+    "283": {
+      "matched": 158,
+      "excluded_missing": [
+        1,
+        4,
+        16,
+        30,
+        58,
+        95,
+        105
+      ],
+      "skipped_ambiguous_assignments_double": 0,
+      "skipped_ambiguous_assignments_triple": 0
+    },
+    "298": {
+      "matched": 156,
+      "excluded_missing": [
+        1,
+        2,
+        4,
+        16,
+        30,
+        58,
+        81,
+        95,
+        105
+      ],
+      "skipped_ambiguous_assignments_double": 0,
+      "skipped_ambiguous_assignments_triple": 0
+    }
+  },
+  "structure_audit": {
+    "source_6BTA": {
+      "chain": "A",
+      "temperature_K": [
+        "273"
+      ],
+      "n_CA_residues": 164,
+      "residues_with_alternate_atoms": 103,
+      "network_sites": {
+        "97": {
+          "aa": "I",
+          "alternate_atoms": {
+            "B": [
+              "C",
+              "CA",
+              "CB",
+              "CD1",
+              "CG1",
+              "CG2",
+              "H",
+              "HA",
+              "HB",
+              "HD11",
+              "HD12",
+              "HD13",
+              "HG12",
+              "HG13",
+              "HG21",
+              "HG22",
+              "HG23",
+              "N",
+              "O"
+            ],
+            "C": [
+              "C",
+              "CA",
+              "CB",
+              "CD1",
+              "CG1",
+              "CG2",
+              "H",
+              "HA",
+              "HB",
+              "HD11",
+              "HD12",
+              "HD13",
+              "HG12",
+              "HG13",
+              "HG21",
+              "HG22",
+              "HG23",
+              "N",
+              "O"
+            ]
+          }
+        },
+        "99": {
+          "aa": "T",
+          "alternate_atoms": {
+            "B": [
+              "C",
+              "CA",
+              "CB",
+              "CG2",
+              "H",
+              "HA",
+              "HB",
+              "HG1",
+              "HG21",
+              "HG22",
+              "HG23",
+              "N",
+              "O",
+              "OG1"
+            ],
+            "C": [
+              "C",
+              "CA",
+              "CB",
+              "CG2",
+              "H",
+              "HA",
+              "HB",
+              "HG1",
+              "HG21",
+              "HG22",
+              "HG23",
+              "N",
+              "O",
+              "OG1"
+            ]
+          }
+        },
+        "113": {
+          "aa": "F",
+          "alternate_atoms": {}
+        },
+        "115": {
+          "aa": "S",
+          "alternate_atoms": {}
+        }
+      }
+    },
+    "target_5WC7": {
+      "chain": "A",
+      "temperature_K": [
+        "273"
+      ],
+      "n_CA_residues": 165,
+      "residues_with_alternate_atoms": 117,
+      "network_sites": {
+        "97": {
+          "aa": "V",
+          "alternate_atoms": {
+            "A": [
+              "C",
+              "CA",
+              "CB",
+              "CG1",
+              "CG2",
+              "H",
+              "HA",
+              "HB",
+              "HG11",
+              "HG12",
+              "HG13",
+              "HG21",
+              "HG22",
+              "HG23",
+              "N",
+              "O"
+            ],
+            "B": [
+              "C",
+              "CA",
+              "CB",
+              "CG1",
+              "CG2",
+              "H",
+              "HA",
+              "HB",
+              "HG11",
+              "HG12",
+              "HG13",
+              "HG21",
+              "HG22",
+              "HG23",
+              "N",
+              "O"
+            ]
+          }
+        },
+        "99": {
+          "aa": "T",
+          "alternate_atoms": {
+            "A": [
+              "C",
+              "CA",
+              "CB",
+              "CG2",
+              "H",
+              "HA",
+              "HB",
+              "HG1",
+              "HG21",
+              "HG22",
+              "HG23",
+              "N",
+              "O",
+              "OG1"
+            ],
+            "B": [
+              "C",
+              "CA",
+              "CB",
+              "CG2",
+              "HA",
+              "HB",
+              "HG1",
+              "HG21",
+              "HG22",
+              "HG23",
+              "N",
+              "O",
+              "OG1"
+            ]
+          }
+        },
+        "113": {
+          "aa": "F",
+          "alternate_atoms": {
+            "A": [
+              "C",
+              "CA",
+              "CB",
+              "CD1",
+              "CD2",
+              "CE1",
+              "CE2",
+              "CG",
+              "CZ",
+              "H",
+              "HA",
+              "HB2",
+              "HB3",
+              "HD1",
+              "HD2",
+              "HE1",
+              "HE2",
+              "HZ",
+              "N",
+              "O"
+            ],
+            "B": [
+              "C",
+              "CA",
+              "CB",
+              "CD1",
+              "CD2",
+              "CE1",
+              "CE2",
+              "CG",
+              "CZ",
+              "H",
+              "HA",
+              "HB2",
+              "HB3",
+              "HD1",
+              "HD2",
+              "HE1",
+              "HE2",
+              "HZ",
+              "N",
+              "O"
+            ]
+          }
+        },
+        "115": {
+          "aa": "S",
+          "alternate_atoms": {
+            "A": [
+              "C",
+              "CA",
+              "CB",
+              "H",
+              "HA",
+              "HB2",
+              "HB3",
+              "HG",
+              "N",
+              "O",
+              "OG"
+            ],
+            "B": [
+              "C",
+              "CA",
+              "CB",
+              "H",
+              "HA",
+              "HB2",
+              "HB3",
+              "HG",
+              "N",
+              "O",
+              "OG"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "model": {
+    "name": "esm2_t6_8M_UR50D",
+    "layer": 6,
+    "parameters": 7512474,
+    "device": "cpu",
+    "threads": 2,
+    "elapsed_seconds": 7.386210250202566,
+    "torch_version": "2.15.0",
+    "weights_sha256": "46f002a9870c9bdecd0ea887acb1f9a38a6b561e8f8bf8a6990b679b9d31b928",
+    "weights_bytes": 30099493,
+    "source": "https://dl.fbaipublicfiles.com/fair-esm/models/esm2_t6_8M_UR50D.pt"
+  },
+  "metrics": {
+    "283K_exclude_0": {
+      "csp": {
+        "sequence_locality": {
+          "n": 158,
+          "k": 40,
+          "spearman": 0.20265317786290635,
+          "top_quartile_precision": 0.475,
+          "chance_precision": 0.25316455696202533,
+          "score_ties": 64
+        },
+        "geometry_locality": {
+          "n": 158,
+          "k": 40,
+          "spearman": 0.40605028926631254,
+          "top_quartile_precision": 0.625,
+          "chance_precision": 0.25316455696202533,
+          "score_ties": 0
+        },
+        "esm2_embedding_change": {
+          "n": 158,
+          "k": 40,
+          "spearman": 0.1736834018661525,
+          "top_quartile_precision": 0.325,
+          "chance_precision": 0.25316455696202533,
+          "score_ties": 0
+        }
+      },
+      "abs_delta_H": {
+        "sequence_locality": {
+          "n": 158,
+          "k": 40,
+          "spearman": 0.04087673901223669,
+          "top_quartile_precision": 0.325,
+          "chance_precision": 0.25316455696202533,
+          "score_ties": 64
+        },
+        "geometry_locality": {
+          "n": 158,
+          "k": 40,
+          "spearman": 0.15116763290643656,
+          "top_quartile_precision": 0.525,
+          "chance_precision": 0.25316455696202533,
+          "score_ties": 0
+        },
+        "esm2_embedding_change": {
+          "n": 158,
+          "k": 40,
+          "spearman": 0.021819954301314642,
+          "top_quartile_precision": 0.275,
+          "chance_precision": 0.25316455696202533,
+          "score_ties": 0
+        }
+      },
+      "abs_delta_N": {
+        "sequence_locality": {
+          "n": 158,
+          "k": 40,
+          "spearman": 0.22697550089262983,
+          "top_quartile_precision": 0.475,
+          "chance_precision": 0.25316455696202533,
+          "score_ties": 64
+        },
+        "geometry_locality": {
+          "n": 158,
+          "k": 40,
+          "spearman": 0.3719233074989538,
+          "top_quartile_precision": 0.55,
+          "chance_precision": 0.25316455696202533,
+          "score_ties": 0
+        },
+        "esm2_embedding_change": {
+          "n": 158,
+          "k": 40,
+          "spearman": 0.08359842465374503,
+          "top_quartile_precision": 0.375,
+          "chance_precision": 0.25316455696202533,
+          "score_ties": 0
+        }
+      }
+    },
+    "283K_exclude_2": {
+      "csp": {
+        "sequence_locality": {
+          "n": 154,
+          "k": 39,
+          "spearman": 0.14147340489777704,
+          "top_quartile_precision": 0.38461538461538464,
+          "chance_precision": 0.2532467532467532,
+          "score_ties": 63
+        },
+        "geometry_locality": {
+          "n": 154,
+          "k": 39,
+          "spearman": 0.35897174720039743,
+          "top_quartile_precision": 0.5641025641025641,
+          "chance_precision": 0.2532467532467532,
+          "score_ties": 0
+        },
+        "esm2_embedding_change": {
+          "n": 154,
+          "k": 39,
+          "spearman": 0.10973856670937183,
+          "top_quartile_precision": 0.28205128205128205,
+          "chance_precision": 0.2532467532467532,
+          "score_ties": 0
+        }
+      },
+      "abs_delta_H": {
+        "sequence_locality": {
+          "n": 154,
+          "k": 39,
+          "spearman": 0.04178823124441029,
+          "top_quartile_precision": 0.3076923076923077,
+          "chance_precision": 0.2532467532467532,
+          "score_ties": 63
+        },
+        "geometry_locality": {
+          "n": 154,
+          "k": 39,
+          "spearman": 0.15825257245703162,
+          "top_quartile_precision": 0.5128205128205128,
+          "chance_precision": 0.2532467532467532,
+          "score_ties": 0
+        },
+        "esm2_embedding_change": {
+          "n": 154,
+          "k": 39,
+          "spearman": 0.020662934808069727,
+          "top_quartile_precision": 0.28205128205128205,
+          "chance_precision": 0.2532467532467532,
+          "score_ties": 0
+        }
+      },
+      "abs_delta_N": {
+        "sequence_locality": {
+          "n": 154,
+          "k": 39,
+          "spearman": 0.19109026964747483,
+          "top_quartile_precision": 0.4358974358974359,
+          "chance_precision": 0.2532467532467532,
+          "score_ties": 63
+        },
+        "geometry_locality": {
+          "n": 154,
+          "k": 39,
+          "spearman": 0.34541039454682076,
+          "top_quartile_precision": 0.5384615384615384,
+          "chance_precision": 0.2532467532467532,
+          "score_ties": 0
+        },
+        "esm2_embedding_change": {
+          "n": 154,
+          "k": 39,
+          "spearman": 0.037281051322399006,
+          "top_quartile_precision": 0.3076923076923077,
+          "chance_precision": 0.2532467532467532,
+          "score_ties": 0
+        }
+      }
+    },
+    "283K_exclude_5": {
+      "csp": {
+        "sequence_locality": {
+          "n": 148,
+          "k": 37,
+          "spearman": 0.11522613955154944,
+          "top_quartile_precision": 0.32432432432432434,
+          "chance_precision": 0.25,
+          "score_ties": 60
+        },
+        "geometry_locality": {
+          "n": 148,
+          "k": 37,
+          "spearman": 0.34406373086384945,
+          "top_quartile_precision": 0.5675675675675675,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        },
+        "esm2_embedding_change": {
+          "n": 148,
+          "k": 37,
+          "spearman": 0.08109433766750859,
+          "top_quartile_precision": 0.2702702702702703,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        }
+      },
+      "abs_delta_H": {
+        "sequence_locality": {
+          "n": 148,
+          "k": 37,
+          "spearman": 0.09461676173936283,
+          "top_quartile_precision": 0.2702702702702703,
+          "chance_precision": 0.25,
+          "score_ties": 60
+        },
+        "geometry_locality": {
+          "n": 148,
+          "k": 37,
+          "spearman": 0.2090089737106042,
+          "top_quartile_precision": 0.5405405405405406,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        },
+        "esm2_embedding_change": {
+          "n": 148,
+          "k": 37,
+          "spearman": 0.06916845066502644,
+          "top_quartile_precision": 0.2972972972972973,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        }
+      },
+      "abs_delta_N": {
+        "sequence_locality": {
+          "n": 148,
+          "k": 37,
+          "spearman": 0.14697805377693934,
+          "top_quartile_precision": 0.40540540540540543,
+          "chance_precision": 0.25,
+          "score_ties": 60
+        },
+        "geometry_locality": {
+          "n": 148,
+          "k": 37,
+          "spearman": 0.32485032096646016,
+          "top_quartile_precision": 0.5405405405405406,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        },
+        "esm2_embedding_change": {
+          "n": 148,
+          "k": 37,
+          "spearman": -0.026281082515167305,
+          "top_quartile_precision": 0.24324324324324326,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        }
+      }
+    },
+    "298K_exclude_0": {
+      "csp": {
+        "sequence_locality": {
+          "n": 156,
+          "k": 39,
+          "spearman": 0.27363316609486177,
+          "top_quartile_precision": 0.38461538461538464,
+          "chance_precision": 0.25,
+          "score_ties": 63
+        },
+        "geometry_locality": {
+          "n": 156,
+          "k": 39,
+          "spearman": 0.5579486239348834,
+          "top_quartile_precision": 0.6923076923076923,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        },
+        "esm2_embedding_change": {
+          "n": 156,
+          "k": 39,
+          "spearman": 0.09734205564454372,
+          "top_quartile_precision": 0.3076923076923077,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        }
+      },
+      "abs_delta_H": {
+        "sequence_locality": {
+          "n": 156,
+          "k": 39,
+          "spearman": 0.17512317406451947,
+          "top_quartile_precision": 0.3333333333333333,
+          "chance_precision": 0.25,
+          "score_ties": 63
+        },
+        "geometry_locality": {
+          "n": 156,
+          "k": 39,
+          "spearman": 0.3861646225909419,
+          "top_quartile_precision": 0.5641025641025641,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        },
+        "esm2_embedding_change": {
+          "n": 156,
+          "k": 39,
+          "spearman": 0.04728707745022891,
+          "top_quartile_precision": 0.3076923076923077,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        }
+      },
+      "abs_delta_N": {
+        "sequence_locality": {
+          "n": 156,
+          "k": 39,
+          "spearman": 0.2595385410072961,
+          "top_quartile_precision": 0.38461538461538464,
+          "chance_precision": 0.25,
+          "score_ties": 63
+        },
+        "geometry_locality": {
+          "n": 156,
+          "k": 39,
+          "spearman": 0.5221416103553279,
+          "top_quartile_precision": 0.6153846153846154,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        },
+        "esm2_embedding_change": {
+          "n": 156,
+          "k": 39,
+          "spearman": 0.1554338395354363,
+          "top_quartile_precision": 0.28205128205128205,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        }
+      }
+    },
+    "298K_exclude_2": {
+      "csp": {
+        "sequence_locality": {
+          "n": 152,
+          "k": 38,
+          "spearman": 0.21739895657798936,
+          "top_quartile_precision": 0.34210526315789475,
+          "chance_precision": 0.25,
+          "score_ties": 62
+        },
+        "geometry_locality": {
+          "n": 152,
+          "k": 38,
+          "spearman": 0.5226791599886185,
+          "top_quartile_precision": 0.6578947368421053,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        },
+        "esm2_embedding_change": {
+          "n": 152,
+          "k": 38,
+          "spearman": 0.026577340831038413,
+          "top_quartile_precision": 0.23684210526315788,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        }
+      },
+      "abs_delta_H": {
+        "sequence_locality": {
+          "n": 152,
+          "k": 38,
+          "spearman": 0.12814852900567994,
+          "top_quartile_precision": 0.34210526315789475,
+          "chance_precision": 0.25,
+          "score_ties": 62
+        },
+        "geometry_locality": {
+          "n": 152,
+          "k": 38,
+          "spearman": 0.348159080240404,
+          "top_quartile_precision": 0.5789473684210527,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        },
+        "esm2_embedding_change": {
+          "n": 152,
+          "k": 38,
+          "spearman": -0.008393041320432372,
+          "top_quartile_precision": 0.2894736842105263,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        }
+      },
+      "abs_delta_N": {
+        "sequence_locality": {
+          "n": 152,
+          "k": 38,
+          "spearman": 0.20795785804547393,
+          "top_quartile_precision": 0.34210526315789475,
+          "chance_precision": 0.25,
+          "score_ties": 62
+        },
+        "geometry_locality": {
+          "n": 152,
+          "k": 38,
+          "spearman": 0.48796602076878653,
+          "top_quartile_precision": 0.5789473684210527,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        },
+        "esm2_embedding_change": {
+          "n": 152,
+          "k": 38,
+          "spearman": 0.09659828978867573,
+          "top_quartile_precision": 0.2631578947368421,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        }
+      }
+    },
+    "298K_exclude_5": {
+      "csp": {
+        "sequence_locality": {
+          "n": 146,
+          "k": 37,
+          "spearman": 0.1883028929492174,
+          "top_quartile_precision": 0.2702702702702703,
+          "chance_precision": 0.2534246575342466,
+          "score_ties": 59
+        },
+        "geometry_locality": {
+          "n": 146,
+          "k": 37,
+          "spearman": 0.5161916624014842,
+          "top_quartile_precision": 0.6486486486486487,
+          "chance_precision": 0.2534246575342466,
+          "score_ties": 0
+        },
+        "esm2_embedding_change": {
+          "n": 146,
+          "k": 37,
+          "spearman": -0.02501050780704389,
+          "top_quartile_precision": 0.16216216216216217,
+          "chance_precision": 0.2534246575342466,
+          "score_ties": 0
+        }
+      },
+      "abs_delta_H": {
+        "sequence_locality": {
+          "n": 146,
+          "k": 37,
+          "spearman": 0.10903124049985945,
+          "top_quartile_precision": 0.2972972972972973,
+          "chance_precision": 0.2534246575342466,
+          "score_ties": 59
+        },
+        "geometry_locality": {
+          "n": 146,
+          "k": 37,
+          "spearman": 0.33366162239398106,
+          "top_quartile_precision": 0.5135135135135135,
+          "chance_precision": 0.2534246575342466,
+          "score_ties": 0
+        },
+        "esm2_embedding_change": {
+          "n": 146,
+          "k": 37,
+          "spearman": -0.04206142968151536,
+          "top_quartile_precision": 0.21621621621621623,
+          "chance_precision": 0.2534246575342466,
+          "score_ties": 0
+        }
+      },
+      "abs_delta_N": {
+        "sequence_locality": {
+          "n": 146,
+          "k": 37,
+          "spearman": 0.15712186540461945,
+          "top_quartile_precision": 0.2702702702702703,
+          "chance_precision": 0.2534246575342466,
+          "score_ties": 59
+        },
+        "geometry_locality": {
+          "n": 146,
+          "k": 37,
+          "spearman": 0.4665399796639841,
+          "top_quartile_precision": 0.5405405405405406,
+          "chance_precision": 0.2534246575342466,
+          "score_ties": 0
+        },
+        "esm2_embedding_change": {
+          "n": 146,
+          "k": 37,
+          "spearman": 0.03415184035121092,
+          "top_quartile_precision": 0.24324324324324326,
+          "chance_precision": 0.2534246575342466,
+          "score_ties": 0
+        }
+      }
+    }
+  },
+  "environment": {
+    "python": "3.12.16",
+    "platform": "macOS-26.5.2-arm64-arm-64bit",
+    "numpy": "2.5.4"
+  },
+  "elapsed_seconds": 0.42862629191949964
+}

@@ -1,0 +1,9 @@
+{
+  "all_non_timing_results_identical": true,
+  "score_csv_byte_identical": true,
+  "sha256": {
+    "scores.csv": "b8050dda0d46a10f5e71a8f6c2beae24ed1144aed574c62d0dda4b7c7e704c7f",
+    "carbon_scores.csv": "1657fcc9737a675348b8cf314677db0b1374dfa11be7e5ed96ca747ebbd7d5ee"
+  },
+  "protocol_sha256": "f41cf221d1d3e798fb6708ef3c326ea6b505eb829a718d16e68b4d94a3d170d0"
+}

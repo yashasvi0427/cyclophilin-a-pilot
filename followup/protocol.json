@@ -1,0 +1,25 @@
+{
+  "study": "CypA source-only local packing follow-up",
+  "status": "Retrospective; previous H/N outcomes and baseline aggregate results have been observed. Not a fresh protein validation.",
+  "primary_candidate": "sidechain_amide_distance",
+  "hypothesis": "The minimum distance from mutation-site side-chain heavy atoms to each observed backbone N atom ranks H/N chemical-shift perturbations better than CA-to-CA distance.",
+  "source_structure": "6BTA chain A only; highest-occupancy atom selection; no target structure input",
+  "changed_site": 97,
+  "candidate_scores": {
+    "sidechain_amide_distance": "negative minimum Euclidean distance from source site97 sidechain heavy atoms to observed residue backbone N",
+    "sidechain_ca_distance": "negative minimum distance from source site97 sidechain heavy atoms to observed residue CA; secondary control",
+    "all_heavy_distance": "negative minimum distance between source site97 sidechain heavy atoms and observed residue heavy atoms; secondary control",
+    "contact_diffusion": "CA contact graph at 8 Angstrom; row-normalized random walk with restart 0.5 at site97, stationary visit mass; secondary network baseline"
+  },
+  "primary_exclusion": "exclude sequence positions95-99; identical matched sites across every score",
+  "sensitivities": "all matched sites and exclusion92-102; H-only and N-only rankings",
+  "primary_metric": "Spearman vs original sqrt(dH^2+(dN/5)^2), temperatures283K and298K separate",
+  "success_statement": "A point improvement requires higher Spearman than original CA baseline at BOTH temperatures. Any uncertainty interval is descriptive on one correlated protein. No population-level improvement guarantee.",
+  "secondary_metrics": "original top-quarter precision, deterministic residue-index ties",
+  "uncertainty": "2000 paired circular sequence-block bootstrap draws, block length10, seed20261110; intervals descriptive only",
+  "additional_observable": "Unanalyzed source-deposit CA/CB shifts at298K: sqrt(dCA^2+dCB^2), positions with both atoms and original exclusions, secondary only; no selection based on this target",
+  "no_tuning": "No fitted weights, architecture search, cutoff sweeps or changed exclusion based on scores. Publish all candidates and targets. If primary fails, keep failure.",
+  "prior_work": ["https://doi.org/10.1038/s41467-018-03562-9", "https://pmc.ncbi.nlm.nih.gov/articles/PMC6977024/", "https://pmc.ncbi.nlm.nih.gov/articles/PMC8067912/"],
+  "novelty": "Atom distances and contact-network propagation are established ideas. This is a small evaluation, not a novel mechanism or algorithm. No additional model downloads.",
+  "publication": "Full results pushed privately; clean public review export authorized by user. No private conversations, personal application data, employer material or model weights in public export."
+}

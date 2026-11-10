@@ -1,0 +1,876 @@
+{
+  "protocol_sha256": "f41cf221d1d3e798fb6708ef3c326ea6b505eb829a718d16e68b4d94a3d170d0",
+  "source_structure_sha256": "176fb32aeaadcb6199ab8541781c56c4c82c27a697b2b76580d844528af0392f",
+  "source_scores_sha256": "1f406b5a0eb39b81e2f1ced6dffdb4bc88eae80291d8f8fac568f9affeda05b9",
+  "primary": "sidechain_amide_distance",
+  "metrics": {
+    "283K_exclude_0": {
+      "csp": {
+        "geometry_locality": {
+          "n": 158,
+          "k": 40,
+          "spearman": 0.40605028926631254,
+          "top_quartile_precision": 0.625,
+          "chance_precision": 0.25316455696202533,
+          "score_ties": 0
+        },
+        "sidechain_amide_distance": {
+          "n": 158,
+          "k": 40,
+          "spearman": 0.4149982429657897,
+          "top_quartile_precision": 0.625,
+          "chance_precision": 0.25316455696202533,
+          "score_ties": 0
+        },
+        "sidechain_ca_distance": {
+          "n": 158,
+          "k": 40,
+          "spearman": 0.4123893105287609,
+          "top_quartile_precision": 0.625,
+          "chance_precision": 0.25316455696202533,
+          "score_ties": 0
+        },
+        "all_heavy_distance": {
+          "n": 158,
+          "k": 40,
+          "spearman": 0.3970004122587998,
+          "top_quartile_precision": 0.65,
+          "chance_precision": 0.25316455696202533,
+          "score_ties": 0
+        },
+        "contact_diffusion": {
+          "n": 158,
+          "k": 40,
+          "spearman": 0.41501497664322834,
+          "top_quartile_precision": 0.65,
+          "chance_precision": 0.25316455696202533,
+          "score_ties": 0
+        }
+      },
+      "abs_delta_H": {
+        "geometry_locality": {
+          "n": 158,
+          "k": 40,
+          "spearman": 0.15116763290643656,
+          "top_quartile_precision": 0.525,
+          "chance_precision": 0.25316455696202533,
+          "score_ties": 0
+        },
+        "sidechain_amide_distance": {
+          "n": 158,
+          "k": 40,
+          "spearman": 0.14363002419849882,
+          "top_quartile_precision": 0.475,
+          "chance_precision": 0.25316455696202533,
+          "score_ties": 0
+        },
+        "sidechain_ca_distance": {
+          "n": 158,
+          "k": 40,
+          "spearman": 0.1497568993566166,
+          "top_quartile_precision": 0.5,
+          "chance_precision": 0.25316455696202533,
+          "score_ties": 0
+        },
+        "all_heavy_distance": {
+          "n": 158,
+          "k": 40,
+          "spearman": 0.14112814075092167,
+          "top_quartile_precision": 0.5,
+          "chance_precision": 0.25316455696202533,
+          "score_ties": 0
+        },
+        "contact_diffusion": {
+          "n": 158,
+          "k": 40,
+          "spearman": 0.15760800440895878,
+          "top_quartile_precision": 0.5,
+          "chance_precision": 0.25316455696202533,
+          "score_ties": 0
+        }
+      },
+      "abs_delta_N": {
+        "geometry_locality": {
+          "n": 158,
+          "k": 40,
+          "spearman": 0.3719233074989538,
+          "top_quartile_precision": 0.55,
+          "chance_precision": 0.25316455696202533,
+          "score_ties": 0
+        },
+        "sidechain_amide_distance": {
+          "n": 158,
+          "k": 40,
+          "spearman": 0.40004198928591245,
+          "top_quartile_precision": 0.6,
+          "chance_precision": 0.25316455696202533,
+          "score_ties": 0
+        },
+        "sidechain_ca_distance": {
+          "n": 158,
+          "k": 40,
+          "spearman": 0.40033560534309387,
+          "top_quartile_precision": 0.575,
+          "chance_precision": 0.25316455696202533,
+          "score_ties": 0
+        },
+        "all_heavy_distance": {
+          "n": 158,
+          "k": 40,
+          "spearman": 0.3812125284582769,
+          "top_quartile_precision": 0.575,
+          "chance_precision": 0.25316455696202533,
+          "score_ties": 0
+        },
+        "contact_diffusion": {
+          "n": 158,
+          "k": 40,
+          "spearman": 0.4021033869930666,
+          "top_quartile_precision": 0.575,
+          "chance_precision": 0.25316455696202533,
+          "score_ties": 0
+        }
+      }
+    },
+    "283K_exclude_2": {
+      "csp": {
+        "geometry_locality": {
+          "n": 154,
+          "k": 39,
+          "spearman": 0.35897174720039743,
+          "top_quartile_precision": 0.5641025641025641,
+          "chance_precision": 0.2532467532467532,
+          "score_ties": 0
+        },
+        "sidechain_amide_distance": {
+          "n": 154,
+          "k": 39,
+          "spearman": 0.36899995564392707,
+          "top_quartile_precision": 0.5641025641025641,
+          "chance_precision": 0.2532467532467532,
+          "score_ties": 0
+        },
+        "sidechain_ca_distance": {
+          "n": 154,
+          "k": 39,
+          "spearman": 0.36665554977090664,
+          "top_quartile_precision": 0.5641025641025641,
+          "chance_precision": 0.2532467532467532,
+          "score_ties": 0
+        },
+        "all_heavy_distance": {
+          "n": 154,
+          "k": 39,
+          "spearman": 0.3498914870320835,
+          "top_quartile_precision": 0.5897435897435898,
+          "chance_precision": 0.2532467532467532,
+          "score_ties": 0
+        },
+        "contact_diffusion": {
+          "n": 154,
+          "k": 39,
+          "spearman": 0.3689555975790556,
+          "top_quartile_precision": 0.5897435897435898,
+          "chance_precision": 0.2532467532467532,
+          "score_ties": 0
+        }
+      },
+      "abs_delta_H": {
+        "geometry_locality": {
+          "n": 154,
+          "k": 39,
+          "spearman": 0.15825257245703162,
+          "top_quartile_precision": 0.5128205128205128,
+          "chance_precision": 0.2532467532467532,
+          "score_ties": 0
+        },
+        "sidechain_amide_distance": {
+          "n": 154,
+          "k": 39,
+          "spearman": 0.15204481674830755,
+          "top_quartile_precision": 0.48717948717948717,
+          "chance_precision": 0.2532467532467532,
+          "score_ties": 0
+        },
+        "sidechain_ca_distance": {
+          "n": 154,
+          "k": 39,
+          "spearman": 0.15759350175562883,
+          "top_quartile_precision": 0.48717948717948717,
+          "chance_precision": 0.2532467532467532,
+          "score_ties": 0
+        },
+        "all_heavy_distance": {
+          "n": 154,
+          "k": 39,
+          "spearman": 0.14686100380011696,
+          "top_quartile_precision": 0.48717948717948717,
+          "chance_precision": 0.2532467532467532,
+          "score_ties": 0
+        },
+        "contact_diffusion": {
+          "n": 154,
+          "k": 39,
+          "spearman": 0.16505858685730343,
+          "top_quartile_precision": 0.5128205128205128,
+          "chance_precision": 0.2532467532467532,
+          "score_ties": 0
+        }
+      },
+      "abs_delta_N": {
+        "geometry_locality": {
+          "n": 154,
+          "k": 39,
+          "spearman": 0.34541039454682076,
+          "top_quartile_precision": 0.5384615384615384,
+          "chance_precision": 0.2532467532467532,
+          "score_ties": 0
+        },
+        "sidechain_amide_distance": {
+          "n": 154,
+          "k": 39,
+          "spearman": 0.376510523253431,
+          "top_quartile_precision": 0.5641025641025641,
+          "chance_precision": 0.2532467532467532,
+          "score_ties": 0
+        },
+        "sidechain_ca_distance": {
+          "n": 154,
+          "k": 39,
+          "spearman": 0.37684240692392246,
+          "top_quartile_precision": 0.5384615384615384,
+          "chance_precision": 0.2532467532467532,
+          "score_ties": 0
+        },
+        "all_heavy_distance": {
+          "n": 154,
+          "k": 39,
+          "spearman": 0.3574830738080692,
+          "top_quartile_precision": 0.5384615384615384,
+          "chance_precision": 0.2532467532467532,
+          "score_ties": 0
+        },
+        "contact_diffusion": {
+          "n": 154,
+          "k": 39,
+          "spearman": 0.3778610597739462,
+          "top_quartile_precision": 0.5128205128205128,
+          "chance_precision": 0.2532467532467532,
+          "score_ties": 0
+        }
+      }
+    },
+    "283K_exclude_5": {
+      "csp": {
+        "geometry_locality": {
+          "n": 148,
+          "k": 37,
+          "spearman": 0.34406373086384945,
+          "top_quartile_precision": 0.5675675675675675,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        },
+        "sidechain_amide_distance": {
+          "n": 148,
+          "k": 37,
+          "spearman": 0.35365704682328386,
+          "top_quartile_precision": 0.5945945945945946,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        },
+        "sidechain_ca_distance": {
+          "n": 148,
+          "k": 37,
+          "spearman": 0.35291297716947473,
+          "top_quartile_precision": 0.5945945945945946,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        },
+        "all_heavy_distance": {
+          "n": 148,
+          "k": 37,
+          "spearman": 0.3330674178954915,
+          "top_quartile_precision": 0.5675675675675675,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        },
+        "contact_diffusion": {
+          "n": 148,
+          "k": 37,
+          "spearman": 0.3539735540640832,
+          "top_quartile_precision": 0.5945945945945946,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        }
+      },
+      "abs_delta_H": {
+        "geometry_locality": {
+          "n": 148,
+          "k": 37,
+          "spearman": 0.2090089737106042,
+          "top_quartile_precision": 0.5405405405405406,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        },
+        "sidechain_amide_distance": {
+          "n": 148,
+          "k": 37,
+          "spearman": 0.207207220103208,
+          "top_quartile_precision": 0.5135135135135135,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        },
+        "sidechain_ca_distance": {
+          "n": 148,
+          "k": 37,
+          "spearman": 0.2126217396798026,
+          "top_quartile_precision": 0.5405405405405406,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        },
+        "all_heavy_distance": {
+          "n": 148,
+          "k": 37,
+          "spearman": 0.19781328788293978,
+          "top_quartile_precision": 0.5135135135135135,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        },
+        "contact_diffusion": {
+          "n": 148,
+          "k": 37,
+          "spearman": 0.21571416365138707,
+          "top_quartile_precision": 0.5675675675675675,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        }
+      },
+      "abs_delta_N": {
+        "geometry_locality": {
+          "n": 148,
+          "k": 37,
+          "spearman": 0.32485032096646016,
+          "top_quartile_precision": 0.5405405405405406,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        },
+        "sidechain_amide_distance": {
+          "n": 148,
+          "k": 37,
+          "spearman": 0.35454287235579657,
+          "top_quartile_precision": 0.5675675675675675,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        },
+        "sidechain_ca_distance": {
+          "n": 148,
+          "k": 37,
+          "spearman": 0.3587706503854234,
+          "top_quartile_precision": 0.5405405405405406,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        },
+        "all_heavy_distance": {
+          "n": 148,
+          "k": 37,
+          "spearman": 0.3390885296371649,
+          "top_quartile_precision": 0.5405405405405406,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        },
+        "contact_diffusion": {
+          "n": 148,
+          "k": 37,
+          "spearman": 0.36069203111867765,
+          "top_quartile_precision": 0.5135135135135135,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        }
+      }
+    },
+    "298K_exclude_0": {
+      "csp": {
+        "geometry_locality": {
+          "n": 156,
+          "k": 39,
+          "spearman": 0.5579486239348834,
+          "top_quartile_precision": 0.6923076923076923,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        },
+        "sidechain_amide_distance": {
+          "n": 156,
+          "k": 39,
+          "spearman": 0.5731610366316107,
+          "top_quartile_precision": 0.7435897435897436,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        },
+        "sidechain_ca_distance": {
+          "n": 156,
+          "k": 39,
+          "spearman": 0.5698103545623056,
+          "top_quartile_precision": 0.717948717948718,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        },
+        "all_heavy_distance": {
+          "n": 156,
+          "k": 39,
+          "spearman": 0.5521702778757422,
+          "top_quartile_precision": 0.717948717948718,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        },
+        "contact_diffusion": {
+          "n": 156,
+          "k": 39,
+          "spearman": 0.575756234724912,
+          "top_quartile_precision": 0.7435897435897436,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        }
+      },
+      "abs_delta_H": {
+        "geometry_locality": {
+          "n": 156,
+          "k": 39,
+          "spearman": 0.3861646225909419,
+          "top_quartile_precision": 0.5641025641025641,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        },
+        "sidechain_amide_distance": {
+          "n": 156,
+          "k": 39,
+          "spearman": 0.40214413187710557,
+          "top_quartile_precision": 0.5897435897435898,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        },
+        "sidechain_ca_distance": {
+          "n": 156,
+          "k": 39,
+          "spearman": 0.4031861362922631,
+          "top_quartile_precision": 0.5641025641025641,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        },
+        "all_heavy_distance": {
+          "n": 156,
+          "k": 39,
+          "spearman": 0.3976203463964293,
+          "top_quartile_precision": 0.5641025641025641,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        },
+        "contact_diffusion": {
+          "n": 156,
+          "k": 39,
+          "spearman": 0.4006008901332608,
+          "top_quartile_precision": 0.5897435897435898,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        }
+      },
+      "abs_delta_N": {
+        "geometry_locality": {
+          "n": 156,
+          "k": 39,
+          "spearman": 0.5221416103553279,
+          "top_quartile_precision": 0.6153846153846154,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        },
+        "sidechain_amide_distance": {
+          "n": 156,
+          "k": 39,
+          "spearman": 0.550231587153065,
+          "top_quartile_precision": 0.6666666666666666,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        },
+        "sidechain_ca_distance": {
+          "n": 156,
+          "k": 39,
+          "spearman": 0.5335862604406187,
+          "top_quartile_precision": 0.6410256410256411,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        },
+        "all_heavy_distance": {
+          "n": 156,
+          "k": 39,
+          "spearman": 0.5119868545337936,
+          "top_quartile_precision": 0.6410256410256411,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        },
+        "contact_diffusion": {
+          "n": 156,
+          "k": 39,
+          "spearman": 0.5372188303157565,
+          "top_quartile_precision": 0.6153846153846154,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        }
+      }
+    },
+    "298K_exclude_2": {
+      "csp": {
+        "geometry_locality": {
+          "n": 152,
+          "k": 38,
+          "spearman": 0.5226791599886185,
+          "top_quartile_precision": 0.6578947368421053,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        },
+        "sidechain_amide_distance": {
+          "n": 152,
+          "k": 38,
+          "spearman": 0.5401017986549058,
+          "top_quartile_precision": 0.6842105263157895,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        },
+        "sidechain_ca_distance": {
+          "n": 152,
+          "k": 38,
+          "spearman": 0.536079743989765,
+          "top_quartile_precision": 0.6578947368421053,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        },
+        "all_heavy_distance": {
+          "n": 152,
+          "k": 38,
+          "spearman": 0.5173346455482786,
+          "top_quartile_precision": 0.6842105263157895,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        },
+        "contact_diffusion": {
+          "n": 152,
+          "k": 38,
+          "spearman": 0.5425963610215606,
+          "top_quartile_precision": 0.6578947368421053,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        }
+      },
+      "abs_delta_H": {
+        "geometry_locality": {
+          "n": 152,
+          "k": 38,
+          "spearman": 0.348159080240404,
+          "top_quartile_precision": 0.5789473684210527,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        },
+        "sidechain_amide_distance": {
+          "n": 152,
+          "k": 38,
+          "spearman": 0.36615711121043093,
+          "top_quartile_precision": 0.5789473684210527,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        },
+        "sidechain_ca_distance": {
+          "n": 152,
+          "k": 38,
+          "spearman": 0.3665981304895901,
+          "top_quartile_precision": 0.5789473684210527,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        },
+        "all_heavy_distance": {
+          "n": 152,
+          "k": 38,
+          "spearman": 0.3604221512043107,
+          "top_quartile_precision": 0.6052631578947368,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        },
+        "contact_diffusion": {
+          "n": 152,
+          "k": 38,
+          "spearman": 0.36418961822472473,
+          "top_quartile_precision": 0.5789473684210527,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        }
+      },
+      "abs_delta_N": {
+        "geometry_locality": {
+          "n": 152,
+          "k": 38,
+          "spearman": 0.48796602076878653,
+          "top_quartile_precision": 0.5789473684210527,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        },
+        "sidechain_amide_distance": {
+          "n": 152,
+          "k": 38,
+          "spearman": 0.5188387842857292,
+          "top_quartile_precision": 0.631578947368421,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        },
+        "sidechain_ca_distance": {
+          "n": 152,
+          "k": 38,
+          "spearman": 0.5010236309776295,
+          "top_quartile_precision": 0.5789473684210527,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        },
+        "all_heavy_distance": {
+          "n": 152,
+          "k": 38,
+          "spearman": 0.4788422698323891,
+          "top_quartile_precision": 0.5789473684210527,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        },
+        "contact_diffusion": {
+          "n": 152,
+          "k": 38,
+          "spearman": 0.5045183061349497,
+          "top_quartile_precision": 0.5526315789473685,
+          "chance_precision": 0.25,
+          "score_ties": 0
+        }
+      }
+    },
+    "298K_exclude_5": {
+      "csp": {
+        "geometry_locality": {
+          "n": 146,
+          "k": 37,
+          "spearman": 0.5161916624014842,
+          "top_quartile_precision": 0.6486486486486487,
+          "chance_precision": 0.2534246575342466,
+          "score_ties": 0
+        },
+        "sidechain_amide_distance": {
+          "n": 146,
+          "k": 37,
+          "spearman": 0.5339508196178488,
+          "top_quartile_precision": 0.6756756756756757,
+          "chance_precision": 0.2534246575342466,
+          "score_ties": 0
+        },
+        "sidechain_ca_distance": {
+          "n": 146,
+          "k": 37,
+          "spearman": 0.5309430804736159,
+          "top_quartile_precision": 0.6756756756756757,
+          "chance_precision": 0.2534246575342466,
+          "score_ties": 0
+        },
+        "all_heavy_distance": {
+          "n": 146,
+          "k": 37,
+          "spearman": 0.5105232309373531,
+          "top_quartile_precision": 0.6486486486486487,
+          "chance_precision": 0.2534246575342466,
+          "score_ties": 0
+        },
+        "contact_diffusion": {
+          "n": 146,
+          "k": 37,
+          "spearman": 0.5397812062666694,
+          "top_quartile_precision": 0.6216216216216216,
+          "chance_precision": 0.2534246575342466,
+          "score_ties": 0
+        }
+      },
+      "abs_delta_H": {
+        "geometry_locality": {
+          "n": 146,
+          "k": 37,
+          "spearman": 0.33366162239398106,
+          "top_quartile_precision": 0.5135135135135135,
+          "chance_precision": 0.2534246575342466,
+          "score_ties": 0
+        },
+        "sidechain_amide_distance": {
+          "n": 146,
+          "k": 37,
+          "spearman": 0.35623455750671174,
+          "top_quartile_precision": 0.5405405405405406,
+          "chance_precision": 0.2534246575342466,
+          "score_ties": 0
+        },
+        "sidechain_ca_distance": {
+          "n": 146,
+          "k": 37,
+          "spearman": 0.35546875206834616,
+          "top_quartile_precision": 0.5675675675675675,
+          "chance_precision": 0.2534246575342466,
+          "score_ties": 0
+        },
+        "all_heavy_distance": {
+          "n": 146,
+          "k": 37,
+          "spearman": 0.3491860611042235,
+          "top_quartile_precision": 0.5675675675675675,
+          "chance_precision": 0.2534246575342466,
+          "score_ties": 0
+        },
+        "contact_diffusion": {
+          "n": 146,
+          "k": 37,
+          "spearman": 0.3540798857821416,
+          "top_quartile_precision": 0.5135135135135135,
+          "chance_precision": 0.2534246575342466,
+          "score_ties": 0
+        }
+      },
+      "abs_delta_N": {
+        "geometry_locality": {
+          "n": 146,
+          "k": 37,
+          "spearman": 0.4665399796639841,
+          "top_quartile_precision": 0.5405405405405406,
+          "chance_precision": 0.2534246575342466,
+          "score_ties": 0
+        },
+        "sidechain_amide_distance": {
+          "n": 146,
+          "k": 37,
+          "spearman": 0.49708572507127835,
+          "top_quartile_precision": 0.6216216216216216,
+          "chance_precision": 0.2534246575342466,
+          "score_ties": 0
+        },
+        "sidechain_ca_distance": {
+          "n": 146,
+          "k": 37,
+          "spearman": 0.4800425875769813,
+          "top_quartile_precision": 0.5675675675675675,
+          "chance_precision": 0.2534246575342466,
+          "score_ties": 0
+        },
+        "all_heavy_distance": {
+          "n": 146,
+          "k": 37,
+          "spearman": 0.4567533850969375,
+          "top_quartile_precision": 0.5675675675675675,
+          "chance_precision": 0.2534246575342466,
+          "score_ties": 0
+        },
+        "contact_diffusion": {
+          "n": 146,
+          "k": 37,
+          "spearman": 0.48507183656828323,
+          "top_quartile_precision": 0.5135135135135135,
+          "chance_precision": 0.2534246575342466,
+          "score_ties": 0
+        }
+      }
+    }
+  },
+  "paired_block_bootstrap": {
+    "283": {
+      "resamples": 2000,
+      "circular_block_length": 10,
+      "seed": 20261110,
+      "spearman_difference": 0.010028208443529585,
+      "descriptive_percentile_95": [
+        -0.040779290840917415,
+        0.06173896078242495
+      ],
+      "caveat": "One protein and one mutant pair, correlated residues and gaps; interval is not independent biological replication."
+    },
+    "298": {
+      "resamples": 2000,
+      "circular_block_length": 10,
+      "seed": 20261110,
+      "spearman_difference": 0.01742263866628735,
+      "descriptive_percentile_95": [
+        -0.034345454406123674,
+        0.076821429543195
+      ],
+      "caveat": "One protein and one mutant pair, correlated residues and gaps; interval is not independent biological replication."
+    }
+  },
+  "carbon_298K_secondary": {
+    "geometry_locality": {
+      "n": 136,
+      "k": 34,
+      "spearman": 0.4105109739789696,
+      "top_quartile_precision": 0.5588235294117647,
+      "chance_precision": 0.25,
+      "score_ties": 0
+    },
+    "sidechain_amide_distance": {
+      "n": 136,
+      "k": 34,
+      "spearman": 0.4216865170722294,
+      "top_quartile_precision": 0.5882352941176471,
+      "chance_precision": 0.25,
+      "score_ties": 0
+    },
+    "sidechain_ca_distance": {
+      "n": 136,
+      "k": 34,
+      "spearman": 0.4487773693476089,
+      "top_quartile_precision": 0.5588235294117647,
+      "chance_precision": 0.25,
+      "score_ties": 0
+    },
+    "all_heavy_distance": {
+      "n": 136,
+      "k": 34,
+      "spearman": 0.4461439009217905,
+      "top_quartile_precision": 0.5882352941176471,
+      "chance_precision": 0.25,
+      "score_ties": 0
+    },
+    "contact_diffusion": {
+      "n": 136,
+      "k": 34,
+      "spearman": 0.4284443214656564,
+      "top_quartile_precision": 0.6176470588235294,
+      "chance_precision": 0.25,
+      "score_ties": 0
+    }
+  },
+  "top_measured_sites": [
+    {
+      "temperature_K": 283,
+      "largest_measured_csp_residues": [
+        131,
+        115,
+        130,
+        132,
+        29,
+        23,
+        91,
+        25,
+        26,
+        93
+      ]
+    },
+    {
+      "temperature_K": 298,
+      "largest_measured_csp_residues": [
+        131,
+        115,
+        130,
+        91,
+        29,
+        132,
+        93,
+        90,
+        128,
+        23
+      ]
+    }
+  ],
+  "elapsed_seconds": 0.9536463338881731,
+  "point_improvement_both_temperatures": true
+}
