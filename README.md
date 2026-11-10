@@ -38,7 +38,7 @@ This downloads about 30 MB of open weights, plus a small contact-regression file
 
 ## Contribution and next-step limits
 
-The user's contributions are the research direction, biological interests, scope decisions and portfolio goals. Codex assisted literature search, implementation, analysis and documentation. The user should review and explain the work before representing personal expertise in interviews. No new wet-lab experiment or validated biological mechanism was produced.
+Yashasvi Singh selected the research direction, biological interests and project scope. Codex assisted literature review, implementation, execution, analysis and documentation. This is an AI-assisted research-engineering pilot. No new wet-lab experiment, validated biological mechanism or unaided implementation claim is made.
 
 The original proposal concerns coordinated side-chain packing across the damage/rescue series. This first measurement-localization test does not answer that full question. It establishes a cheap baseline, a checked data path and a negative result for one representation score. A future all-atom comparison needs a separately frozen protocol and appropriate experimental observables; a four-variant case study cannot support a broad benchmark claim.
 
